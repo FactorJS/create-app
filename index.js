@@ -10,8 +10,4 @@
 
 require("./transpile")();
 
-const cli = require("./cli");
-
-cli.execute();
-
-module.exports = cli;
+require("./cli");
