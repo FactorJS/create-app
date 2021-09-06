@@ -4,10 +4,7 @@ dist
 node_modules
 **/node_modules
 sw.*
-
-
-# Logs
 report*
 logs
 *.log
-
+.DS_Store

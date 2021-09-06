@@ -9,11 +9,6 @@
     "cva": "index.js"
   },
   "main": "index.js",
-  "files": [
-    "cli.js",
-    "saofile.js",
-    "template/"
-  ],
   "dependencies": {
     "@types/node": "^16.7.11",
     "axios": "^0.21.0",
