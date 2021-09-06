@@ -1,0 +1,30 @@
+{
+  "name": "@factor/create-factor",
+  "version": "3.3.0",
+  "scripts": {
+    "run": "index.js"
+  },
+  "bin": {
+    "create-factor": "index.js",
+    "cva": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "cli.js",
+    "saofile.js",
+    "template/"
+  ],
+  "dependencies": {
+    "@types/node": "^16.7.11",
+    "axios": "^0.21.0",
+    "chalk": "^4.0.0",
+    "consola": "^2.6.0",
+    "figures": "^4.0.0",
+    "lodash": "^4.17.11",
+    "sao": "^1.6.1",
+    "superb": "^4.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0"
+  },
+  "license": "MIT"
+}

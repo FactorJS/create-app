@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "sourceMap": false,
+    "target": "ES2018",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "removeComments": true,
+    "types": ["jest", "node"],
+    "lib": ["ES2020", "DOM"],
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules",
+    "**/node_modules/*",
+    "cdk.out",
+    ".ref/**",
+    "**/dist"
+  ],
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "strict": false,
+      "allowJs": true,
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    }
+  }
+}

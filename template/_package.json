@@ -1,0 +1,10 @@
+{
+  "name": "<%= urlName %>",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index",
+  "private": true,
+  "dependencies": {
+    "@factor/cli": "^3.0.0"
+  }
+}
