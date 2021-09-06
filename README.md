@@ -1,17 +1,10 @@
-# impressive project
-
-## Built with [FactorJS](https://www.factor.so)
+# Scaffold A [FactorJS](https://www.factor.so) App
 
 ```bash
-# Run development server
-npx factor dev
+# With NPM
+npm init factor@latest
 
-# Build production app
-npx factor build
+# With Yarn
+yarn create factor
 
-# Serve production app
-npx factor serve
-
-# build for production and then launch server
-npx factor start
 ```

@@ -13,7 +13,7 @@ const outDir = path.resolve(process.argv[2] || ".");
 
 consola.log(`Starting ${packageName}@${version}`);
 consola.log();
-consola.log(chalk.hex("#0471ff").bold("Success"));
+consola.log(chalk.bold("Success"));
 consola.success(`Generating FactorJS project in: ${outDir}`);
 consola.log();
 
