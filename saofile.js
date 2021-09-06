@@ -93,32 +93,31 @@ const config = {
     const cd = () => {
       if (isNewFolder) {
         console.log(
-          `\t${this.chalk.bold.green("cd")} ${this.chalk.bold(
+          `    ${this.chalk.bold.green("cd")} ${this.chalk.bold(
             path.relative(process.cwd(), this.outDir)
           )}`
         );
       }
     };
 
-    const runner = this.npmClient == "yarn" ? "npx" : "npm";
+    const runner = this.npmClient == "yarn" ? "yarn" : "npx";
     console.log();
-    console.log();
-    console.log(this.chalk.bold(`  Ready! Start Development:\n`));
+    console.log(this.chalk.bold(`Ready! Start Development:\n`));
     cd();
     console.log();
     console.log(
-      `\t${
+      `    ${
         this.chalk.magenta.bold(`${runner} `) + this.chalk.bold("factor dev")
       }\n`
     );
     console.log();
     console.log(
-      `   ${this.chalk.bold(`Docs:`)} ${this.chalk.dim(
+      `${this.chalk.bold(`Docs:`)} ${this.chalk.dim(
         "https://www.factor.so/docs"
       )}`
     );
     console.log(
-      `   ${this.chalk.bold(`Slack:`)} ${this.chalk.dim(
+      `${this.chalk.bold(`Slack:`)} ${this.chalk.dim(
         "https://join.slack.com/t/factorjs/shared_invite/zt-biopdz00-pnEJOPDPcm8DSTGLccH_Og"
       )}`
     );
