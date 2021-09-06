@@ -17,8 +17,6 @@ consola.log(chalk.bold("Success"));
 consola.success(`Generating FactorJS project in: ${outDir}`);
 consola.log();
 
-console.log("gen", generator, outDir);
-
 // See https://sao.js.org/#/advanced/standalone-cli
 sao({ generator, outDir, logLevel: 2 })
   .run()

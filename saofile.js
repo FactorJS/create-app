@@ -100,7 +100,7 @@ const config = {
       }
     };
 
-    const runner = this.npmClient == "npm" ? "npx" : "yarn";
+    const runner = this.npmClient == "yarn" ? "npx" : "npm";
     console.log();
     console.log();
     console.log(this.chalk.bold(`  Ready! Start Development:\n`));
