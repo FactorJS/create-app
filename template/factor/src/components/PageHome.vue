@@ -1,7 +1,7 @@
 <template>
   <div class="px-4 py-20 text-center">
     <router-link to="/" class="font-bold text-2xl inline-block">
-      <img :src="icon" class="h-24" />
+      <img :src="icon" class="h-16" />
     </router-link>
     <div class="my-6">See README.md for more information.</div>
     <div class="my-6">
